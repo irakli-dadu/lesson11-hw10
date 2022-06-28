@@ -1,0 +1,105 @@
+:root {
+    --font01:'poppins';
+    --color01: #FF4900;
+}
+body {
+    background-color: black;
+}
+/* header-styles */
+.header-div {
+    /* background-color: aqua; */
+    max-width: 1450px;
+    width: 100%;
+    height: 119px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coder-div {
+    display: flex;
+}
+.cod-h2 {
+    font-family: var(--font01);
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.fa-bars {
+    font-size: 50px;
+    color: var(--color01);
+    font-family: var(--font01);
+    font-weight: 800;
+}
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hire-me {
+    width: 148px;
+    height: 67px;
+    background-color: var(--color01);
+    border-radius: 10px;
+    border: none;
+    font-family: var(--font01);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.nav-a-list {
+    margin-right: 50px;
+    font-family: var(--font01);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    transition: all .3s linear;
+}
+.nav-a-list:hover {
+    background-color: var(--color01);
+}
+
+/* section 1 starts */
+.welcome-div {
+    background-image: url(../images/man-wearing-black-bow-tie-2330079.jpg);
+    width: 100%;
+    height: 953px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+
+}
+.title-div {
+    max-width: 1450px;
+    width: 100%;
+    height: 396px;
+    position: absolute;
+    top: 187px;
+    left: 231px;
+}
+.pop-up {
+    display: inline;
+    width: 199px;
+    height: 64px;
+    background-color: var(--color01);
+    font-size: 22px;
+    font-family: var(--font01);
+    font-weight: 300;
+    color: #fff;
+}
+.name-title {
+    font-size: 80px;
+    color: #fff;
+    font-family: var(--font01);
+    font-weight: 700;
+    margin-top: 21px;
+}
+.title-txt {
+    font-size: 22px;
+    color: #fff;
+    font-family: var(--font01);
+    font-weight: 300;
+    margin-top: 18px;
+}
